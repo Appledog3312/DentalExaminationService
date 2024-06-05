@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "186350428735",
+    "project_id": "kt-huuhau",
+    "storage_bucket": "kt-huuhau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186350428735:android:82f4b7d88c582540594e8a",
+        "android_client_info": {
+          "package_name": "com.dentalexaminationservices"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQO3m9lTaOf3nWWYwgKFyymD3Qjbb0NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186350428735:android:48ac3213a4fad237594e8a",
+        "android_client_info": {
+          "package_name": "com.kt_nguyenhuuhau_194"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQO3m9lTaOf3nWWYwgKFyymD3Qjbb0NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
