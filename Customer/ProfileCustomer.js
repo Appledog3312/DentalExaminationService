@@ -68,7 +68,7 @@ const ProfileCustomer = () => {
                     <TextInput
                         style={styles.input}
                         value={formData.fullname}
-                        onChangeText={(text) => setFormData({ ...formData, fullName: text })}
+                        onChangeText={(text) => setFormData({ ...formData, fullname: text })}
                     />
                 ) : (
                     <Text style={styles.value}>{formData.fullname}</Text>
@@ -107,7 +107,8 @@ const ProfileCustomer = () => {
                     <TextInput
                         style={styles.input}
                         value={formData.email}
-                        onChangeText={(text) => setFormData({ ...formData, email: text })}
+                        editable={false}
+                        placeholder="Email không thể thay đổi"
                     />
                 ) : (
                     <Text style={styles.value}>{formData.email}</Text>
@@ -129,37 +130,51 @@ const styles = StyleSheet.create({
     header: {
         fontSize: 25,
         fontWeight: "bold",
-        marginBottom: 20
+        marginBottom: 20,
+        alignSelf: 'center',
+        color: '#333',
     },
     fieldContainer: {
-        marginBottom: 15
+        marginBottom: 15,
+        padding: 10,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 10,
+        backgroundColor: '#87CEFA',
     },
     label: {
         fontSize: 16,
-        fontWeight: "bold"
+        fontWeight: "bold",
+        color: '#555',
+        marginBottom: 5,
     },
     value: {
         fontSize: 16,
         padding: 10,
         borderColor: "#ccc",
         borderWidth: 1,
-        borderRadius: 5
+        borderRadius: 5,
+        backgroundColor: '#e6e6e6',
+        color: '#333',
     },
     input: {
         padding: 10,
         borderColor: "#ccc",
         borderWidth: 1,
-        borderRadius: 5
+        borderRadius: 5,
+        backgroundColor: '#E0FFFF',
+        color: '#333',
     },
     editButton: {
-        justifyContent:"center",
-        alignSelf:"center",
+        justifyContent: "center",
+        alignSelf: "center",
         fontSize: 16,
         color: "blue",
         marginTop: 10,
         borderColor: "blue",
         borderWidth: 1,
-        borderRadius: 5
+        borderRadius: 5,
+        padding: 5,
     }
 });
 
